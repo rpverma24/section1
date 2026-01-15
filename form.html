@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student addmission form</h1>
+    <form >
+        <label for="">Student form</label>
+        <input type="text" required minlength="4">
+        <br><br>
+        <label for="">emaiil address</label>
+        <input type="email" required>
+        <br><br>
+        <label for="">age</label>
+        <input type="number" required min="10">
+        <br><br>
+        <label for="">date of birth</label>
+        <input type="date">
+        <br><br>
+    
+        <label for="">Address</label>
+        <textarea cols="30" rows="4"></textarea>
+        <br><br>
+        <label for="">Select course</label>
+        <select >
+            <option >MERN stack</option>
+            <option >Artificial Intelligence</option>
+            <option >Iot</option>
+            <option >Robotics</option>
+            <option >Devops</option>
+        </select>
+        <br><br>
+        <label for="">College</label>
+        <input type="text" list="college">
+
+        <datalist id="college">
+            <option value="">BBDU</option>
+            <option value="">BHU</option>
+            <option value="">KGMU</option>
+            <option value="">DU</option>
+            <option value="">AU</option>
+        </datalist>
+        <br><br>
+        <button type="submit"> Submit</button>
+    </form>
+</body>
+</html>
